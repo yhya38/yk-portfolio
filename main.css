@@ -9,7 +9,7 @@ a {
 }
 nav {
   height: 80px;
-  background-color: #0c1924;
+  background-color: rgb(5, 8, 15);
 }
 nav img {
   width: 140px;
@@ -88,7 +88,7 @@ label #cancel {
     position: fixed;
     width: 100%;
     height: 100vh;
-    background: #0c1924;
+    background-color: rgb(5, 8, 15);
     top: 80px;
     left: -100%;
     text-align: center;
@@ -300,6 +300,7 @@ label #cancel {
   text-align: center;
   padding: 20px;
   margin-top: -20px;
+  border-bottom: 2px solid white;
 }
 .icons div {
   background-color: rgb(162, 211, 206);
@@ -312,4 +313,10 @@ label #cancel {
 .icons a {
   font-size: 40px;
   color: black;
+}
+
+.copyright {
+  padding: 10px;
+  text-align: center;
+  color: white;
 }
