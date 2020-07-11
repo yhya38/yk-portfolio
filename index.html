@@ -5,14 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>YahiyaKhan - A front end Web Developer</title>
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <link rel="stylesheet" href="main.css" />
      <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+      <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="main.css" />
+
   </head>
   <body>
-    <header>
+     <header> 
       <nav>
         <input type="checkbox" id="check" />
         <label for="check">
@@ -28,7 +30,7 @@
           <li><a href="gallary.html">GALLARY</a></li>
         </ul>
       </nav>
-    </header>
+    </header> 
     <section class="container">
       <div class="profile" id="profile">
         <img src="images/yahiya.jpg" alt="" />
@@ -41,7 +43,7 @@
       <div class="self" id="self">
         <h1>ABOUT ME</h1>
         <div class="myself">
-          <p>
+          <p data-aos="fade-up">
             Hey folks! <br /> Iam <span>Yahiya Khan</span>, A front-end Web
             designer based in Bangalore, currently pursuing bachelor's degree in
             Computer Science & Engineering at Visvesvaraya Technological
@@ -51,7 +53,7 @@
             creativity.
           </p>
         </div>
-        <div class="education">
+        <div class="education" data-aos="fade-up">
           <h1>Education</h1>
           <h3>Studied PCMB in Shaheen PU College BIDAR KARNATAKA</h3>
           <p>(2015-2017)</p>
@@ -63,7 +65,7 @@
         <h1>MY SKILLS</h1>
 
         <div class="skills">
-          <div>
+          <div data-aos="fade-up">
             <h1>Development</h1>
             <li>
               <h3>HTML5</h3>
@@ -105,7 +107,7 @@
       </div>
       <div class="contact" id="contact">
           <h1>CONTACT ME</h1>
-          <div class="contact-me">
+          <div class="contact-me" data-aos="fade-up">
             <div>
               <h3>Email</h3>
               <p>yahiyakhan2217@gmail.com</p>
@@ -122,7 +124,7 @@
         </div>
       </div>
       <div class="icons">
-              <div>
+              <div >
           <a href="https://www.facebook.com/yahiya.khan.100046" target="_blank">
             <i class="fa fa-facebook-square bg"></i
           ></a>
@@ -144,8 +146,23 @@
       </div>
       <div class="copyright">
     <p class="copyright">&copy; 2020 YahiyaKhan</p>
-
       </div>
     </section>
+
+
+
+
+
+
+
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      offset:400,
+      duration:1000
+    }
+    );
+  </script>
   </body>
 </html>
