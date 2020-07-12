@@ -175,8 +175,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform:translateY(-150%);
-    transition: 0.5s ease-in;
+    /* transition: 0.5s ease-in; */
 
 
   }
