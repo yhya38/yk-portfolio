@@ -14,7 +14,7 @@ a {
   color: white;
   font-weight: bold;
 }
-/* nav {
+* nav {
   height: 80px;
   background-color: rgb(5, 8, 15);
 }
@@ -117,8 +117,8 @@ label #cancel {
   #check:checked ~ label #cancel {
     display: block;
   }
-} */
-nav img {
+} 
+/* nav img {
   width: 120px;
 }
 nav {
@@ -175,7 +175,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    transform: translateX(100%);
+    transform:translateY(-150%);
     transition: 0.5s ease-in;
 
 
@@ -189,7 +189,7 @@ nav {
     transform: translateX(0%);
   }
  
-}
+} */
 .container {
   max-width: 1200px;
   margin: 0 auto;
