@@ -14,41 +14,23 @@
 
   </head>
   <body>
-      <header> 
-      <nav>
-        <input type="checkbox" id="check" />
-        <label for="check">
-          <i class="fas fa-bars" id="btn"></i>
-          <i class="fas fa-times" id="cancel"></i>
-        </label>
-        <img src="images/yk-logo.png" alt="logo" />
+       <nav>
+      <input type="checkbox" name="" id="check">
+        <label for="check" class="label1">          <i class="fas fa-bars" id="btn"></i>
+</label>
+        <label for="check" class="label2"><i class="fas fa-times"></i></i></label>
+        <div>
+          <h1>YK <small>Creations</small></h1>
+        </div>
         <ul>
-          <li><a href="#profile">HOME</a></li>
-          <li><a href="#self">ABOUT</a></li>
-          <li><a href="#my-skills">SKILLS</a></li>
-          <li><a href="#contact">CONTACT</a></li>
-          <li><a href="gallary.html">GALLARY</a></li>
+            <li><a href="#profile">home</a></li>
+            <li><a href="#self">about</a></li>
+            <li><a href="#my-skills">skills</a></li>
+            <li><a href="#contact">contact</a></li>
+            <li><a href="#">gallary</a></li>
         </ul>
-      </nav>
-    </header>  
+    </nav>
 
-    <!-- <nav>
-      <div class="logo">
-        <h1>YK<small>Creations</small></h1>
-      </div>
-      <ul class="nav-links">
-        <li><a href="#home">HOME</a></li>
-        <li><a href="#home">ABOUT</a></li>
-        <li><a href="#home">SKILLS</a></li>
-        <li><a href="#home">CONTACT</a></li>
-        <li><a href="#home">GALLARY</a></li>
-      </ul>
-      <div class="bars">
-        <label for="check">
-          <i class="fas fa-bars" id="btn"></i>
-        </label>
-      </div>
-    </nav> -->
     <section class="container">
       <div class="profile" id="profile">
         <img src="images/yahiya.jpg" alt="" />
@@ -58,10 +40,10 @@
         </h1>
         <p>"We don't just build websites, we build websites that SELLS."</p>
       </div>
-      <div class="self" id="self">
+      <div class="self" id="self" data-aos="fade-up">
         <h1>ABOUT ME</h1>
         <div class="myself">
-          <p data-aos="fade-up">
+          <p >
             Hey folks! <br /> Iam <span>Yahiya Khan</span>, A front-end Web
             designer based in Bangalore, currently pursuing bachelor's degree in
             Computer Science & Engineering at Visvesvaraya Technological
@@ -79,11 +61,11 @@
           <p>(2017-2021)</p>
         </div>
       </div>
-      <div class="my-skills" id="my-skills">
+      <div class="my-skills" id="my-skills" data-aos="fade-up">
         <h1>MY SKILLS</h1>
 
         <div class="skills">
-          <div data-aos="fade-up">
+          <div >
             <h1>Development</h1>
             <li>
               <h3>HTML5</h3>
@@ -123,9 +105,9 @@
           </div>
         </div>
       </div>
-      <div class="contact" id="contact">
+      <div class="contact" id="contact" data-aos="fade-up">
           <h1>CONTACT ME</h1>
-          <div class="contact-me" data-aos="fade-up">
+          <div class="contact-me" >
             <div>
               <h3>Email</h3>
               <p>yahiyakhan2217@gmail.com</p>
@@ -178,7 +160,7 @@
      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init({
-      offset:400,
+      offset:150,
       duration:1000
     }
     );
