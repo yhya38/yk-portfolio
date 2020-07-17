@@ -316,3 +316,38 @@ input {
   text-align: center;
   color: white;
 }
+@media screen and (min-width: 768px) {
+  .bar {
+    width: 70%;
+    margin: 0 auto;
+  }
+  .skills div h3 {
+    margin-left: 110px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .skills div h3 {
+    margin-left: 70px;
+  }
+  .contact-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .bar {
+    width: 100%;
+  }
+  .skills div h3 {
+    margin-left: 0px;
+  }
+}
