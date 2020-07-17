@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.gallary {
+    display: grid;
+}
+.gallary img {
+    width: 100%;
+}
+@media screen and (min-width:500px) {
+.gallary {
+    grid-template-columns: 1fr 1fr;
+
+}
+}
+@media screen and (min-width:900px) {
+.gallary {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+}

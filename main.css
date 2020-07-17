@@ -6,6 +6,7 @@
 
 html {
   background: linear-gradient(#18121e, #334c55);
+  font-family: 'Roboto', sans-serif
 }
 nav a {
   text-decoration: none;
@@ -36,12 +37,12 @@ nav img {
   display: inline-block;
 }
 nav div {
-  font-family: cursive;
-  margin-left: 20px;
+font-family: 'Grenze Gotisch', cursive;
+ margin-left: 20px;
   color: wheat;
 }
 nav div small {
-  margin-left: -10px;
+  margin-left: -2px;
   font-size: 16px;
 }
 .label1 {
